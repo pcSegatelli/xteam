@@ -1,0 +1,6 @@
+{
+    "github.autoPublish": true,
+    "github.allowUnsafeSSL": true,
+    "github.customPullRequestTitle": true,
+    "github.gitCommand": "vscode://vscode.github-authentication/did-authenticate?windowId=1&code=d4ad805e04755decb8bf&state=8d0ff1f4-51b4-4105-be13-e9873e9ae0e0"
+}
