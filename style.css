@@ -116,7 +116,7 @@ color: #000000;
     
     color: #000000;  
 }
-.button1{
+.btn1{
     position: absolute;
 width: 324px;
 height: 41px;
@@ -127,7 +127,7 @@ background: #FFFFFF;
 box-shadow: -2px 6px 11px rgba(0, 0, 0, 0.4);
 
 }
-.button2{
+.btn2{
     
 position: absolute;
 width: 324px;
@@ -146,4 +146,20 @@ left: 684px;
 top: 879px;
 
 background: url(https://xteam.ml/logo.png);
+}
+.valor{
+    position: absolute;
+width: 121px;
+height: 24px;
+left: 1072px;
+top: 596px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+color: #F3CF31;
+
 }
