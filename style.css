@@ -78,7 +78,7 @@ color: #FFFFFF;
  width: 50%;
 }
 .retangulo{
-    position: absolute;
+    position: cover;
 width: 383px;
 height: 391px;
 left: 939px;
