@@ -177,3 +177,18 @@ line-height: 22px;
 
 color: #FFFFFF;
 }
+.texto4{
+    position: absolute;
+    width: 259px;
+    height: 52px;
+    left: 590px;
+    top: 92px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    
+    color: #F3CF31;
+}
