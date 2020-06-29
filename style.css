@@ -192,3 +192,18 @@ color: #FFFFFF;
     
     color: #F3CF31;
 }
+#question{
+    position: absolute;
+width: 552px;
+height: 363px;
+left: 168px;
+top: 366px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 59px;
+
+color: #F3CF31;
+}
