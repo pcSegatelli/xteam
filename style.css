@@ -7,3 +7,66 @@ top: -38px;
 
 background: url(https://xteam.ml/Background.png);
 }
+.sabe{
+    position: absolute;
+width: 501px;
+height: 57px;
+left: 122px;
+top: 247px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 61px;
+
+color: #F3CF31;
+}
+.filmes{
+    position: absolute;
+    width: 767px;
+    height: 244px;
+    left: 111px;
+    top: 266px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 244px;
+    /* identical to box height */
+    
+    
+    color: #F3CF31;
+}
+.texto1{
+    position: absolute;
+width: 640px;
+height: 87px;
+left: 122px;
+top: 510px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+}
+.texto2{
+    position: absolute;
+width: 640px;
+height: 90px;
+left: 122px;
+top: 621px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
