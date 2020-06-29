@@ -207,3 +207,13 @@ line-height: 59px;
 
 color: #F3CF31;
 }
+
+.buttons{
+    width: 453px;
+height: 83px;
+left: 795px;
+top: 370px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
