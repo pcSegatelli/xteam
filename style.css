@@ -86,3 +86,64 @@ top: 275px;
 
 background: #FFFFFF;
 }
+.nome{
+    position: absolute;
+width: 121px;
+height: 24px;
+left: 968px;
+top: 326px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.email{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 968px;
+    top: 463px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;  
+}
+.button1{
+    position: absolute;
+width: 324px;
+height: 41px;
+left: 969px;
+top: 364px;
+
+background: #FFFFFF;
+box-shadow: -2px 6px 11px rgba(0, 0, 0, 0.4);
+
+}
+.button2{
+    
+position: absolute;
+width: 324px;
+height: 41px;
+left: 969px;
+top: 505px;
+
+background: #FFFFFF;
+box-shadow: -2px 6px 11px rgba(0, 0, 0, 0.4);
+}
+.logo{
+    position: absolute;
+width: 72px;
+height: 101px;
+left: 684px;
+top: 879px;
+
+background: url(https://xteam.ml/logo.png);
+}

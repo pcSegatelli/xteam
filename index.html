@@ -15,18 +15,22 @@
   
   </div>
      <div class="grid-item"><div class="retangulo"><form method="POST" action="https://smtl.gama.academy/leads/bfef0a22-b7e1-11ea-8228-89cff86db9a0">
+      <label class=nome>Nome</label>
       <input
         name="name"
         type="text"
         pattern="^\D{2,}\s[\D\s]{2,}$"
         title="Digite seu nome completo"
         required
+        class="button1"
       />
+      <label class=email>Email</label>
       <input
         name="email"
         type="email"
         title="Digite um email válido"
         required
+        class="button2"
       />
       <input name="redirectTo" type="hidden" value="https://gama.academy" />
       <input name="debugMode" type="hidden" value="true" />
