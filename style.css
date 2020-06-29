@@ -70,3 +70,10 @@ line-height: 22px;
 
 color: #FFFFFF;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+ width: 35%;
+}
