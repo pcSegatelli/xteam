@@ -1,9 +1,9 @@
-#fundo{
+.fundo{
 position: absolute;
 width: 1934px;
 height: 1069px;
 left: -440px;
 top: -38px;
 
-background: url(Background.jpg);
+background: url(https://xteam.ml/Background.jpg);
 }
