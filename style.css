@@ -1,5 +1,5 @@
 .fundo{
-    position: absolute;
+    position: cover;
     width: 1934px;
     height: 1069px;
     left: -440px;
@@ -160,6 +160,6 @@ font-weight: bold;
 font-size: 18px;
 line-height: 22px;
 border: 2px solid #F3CF31;
-color: #F3CF31;
+color: #0000;
 
 }
