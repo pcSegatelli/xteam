@@ -3,85 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Xteam</title>
-</head>
-<body>
-  <header>
-    <h1>Descubra o quanto você sabe sobre filmes famosos</h1>
-  </header>
-  <main>
-    <div style="
-      width: 20%;
-      margin: 0 auto;
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-      flex-direction: column;
-    ">
-      <form method="POST" action="https://smtl.gama.academy/leads/bfef0a22-b7e1-11ea-8228-89cff86db9a0">
-        <input style="margin-bottom: 4px; width: 98%;" type="text" name="nome" placeholder="Digite seu nome completo" required>
-        <input style="margin-bottom: 4px; width: 98%;" type="email" name="email" placeholder="Digite seu email" required>
-        <button style="width: 100%;">Quero Jogar !</button>
-      </form>
-    </div>
+</head>s
+<body class="fundo">
+  
+    <div class="sabe"> O quanto você sabe</div>
+  <div class="filmes">FILMES</div>
+  <div class="texto1">Responda para o Plus Team: você sabe TUDO sobre filmes? Se você manja dos paranauê de Harry Potter, não perde um filme de super herói, mas também se emociona vendo Toy Story e se gaba de ter visto por inúmeras vezes o Laranja Mecânica, aqui é o seu lugar.</div>
+  <div class="text2">É hora de testar o seu conhecimento e compartilhar com seus amigos. Quem será que se dá melhor nessa jornada? Que comecem os jogos!</div>
+  
+  
+     <div class="retangulo"><form method="POST" action="https://smtl.gama.academy/leads/bfef0a22-b7e1-11ea-8228-89cff86db9a0">
+      <div class="nome">Nome</div>
+      <input
+        name="name"
+        type="text"
+        pattern="^\D{2,}\s[\D\s]{2,}$"
+        title="Digite seu nome completo"
+        required
+        class="btn1"
+      />
+      <div class="email">Email</div>
+      <input
+        name="email"
+        type="email"
+        title="Digite um email válido"
+        required
+        class="btn2"
+      />
+      <input name="redirectTo" type="hidden" value="https://gama.academy" />
+      <input name="debugMode" type="hidden" value="true" />
+      <input type="submit" value="Quero Jogar" class="valor"/>
+    </form>
     
-    <div>
-      <h4>Depoimentos</h4>
-      <p>
-        “Achei que eu era o sabe tudo de cinema aqui em casa, 
-        mas eu estava enganado. Já tenho uma lista de filmes famosos para 
-        ver com mais calma”
-        <strong>Rodrigo Fonseca</strong>
-      </p>
-
-      <p>
-        “Gabaritei! Me nota Netflix, Amazon Prime e Globo Play”
-        <strong>Ana Luisa Reis</strong>
-      </p>
-
-      <p>
-        “Gente, eu errei tanta coisa que estou duvidando se eu vi 
-        Laranja Mecânica ou não”
-        <strong>Artur Silvestre</strong>
-      </p>
-
-      <p>
-        “Mas gente… era o Rafiki (O Rei Leão), Gandalf (O Senhor dos anéis) ou 
-        Alvo Dumbledore (Harry Potter) a resposta certa? 
-        Pareciam todas verdadeiras”
-        <strong>Paula Segatelli</strong>
-      </p>
-
-      <p>
-        “Eu amo os filmes que apareceram no jogo! Amei responder essa lista. 
-        Já encaminhei para alguns amigos”
-        <strong>Bianca Estevam</strong>
-      </p>
-
-      <p>
-        “Respondi e me deu muuuita vontade de ver Toy Story de novo”
-        <strong>Gregory Azevedo</strong>
-      </p>
-
-      <p>
-        “Amei a pergunta sobre o Nemo. Uma das minhas animações prediletas”
-        <strong>Alexandre Giungi</strong>
-      </p>
-
-      <p>
-        “Achei criativo! Vou testar com meus amigos do trabalho”
-        <strong>Julio Pereira</strong>
-      </p>
-
-      <p>
-        “Tive que jogar 3 vezes, para gabaritar, mas me sinto um vitorioso”
-        <strong>Gabriel Guirão</strong>
-      </p>
-
-      <h4>
-        “Adorei as indicações dos filmes para assistir. Até o final do ano verei todos”
-      </h4>
-    </div>
-  </main>
+      </div> 
+    <div class="texto3">  Não se preocupe, não vamos te incomodar com spams, só queremos saber quantos aceitaram o nosso desafio!</div>
+  
 </body>
 </html>
