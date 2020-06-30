@@ -54,4 +54,23 @@ body {
   justify-content: left;
   margin-left: -129px;
   margin-bottom: -1px;
+  margin-top: 8px;
+}
+
+.valor {
+  margin-top: 15px;
+  padding: 4px;
+  background-color: #fff;
+  color: #323232;
+  font-size: large;
+  font-weight: 700;
+  border: 2px solid var(--title-color);
+  transition: all 1.5s ease;
+}
+
+.valor:hover {
+  background-color: #323232;
+  border: 2px solid #323232;
+  color: var(--title-color);
+  font-size: normal;
 }
