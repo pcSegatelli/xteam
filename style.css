@@ -1,201 +1,50 @@
-.fundo{
-  position: cover;
-  width: 1934px;
-  height: 1069px;
-  left: -440px;
-  top: -38px;
-  background: url(https://xteam.ml/Background.png);
+:root {
+  --title-color: #F3CF31;
+  --paragrafo-color: #fff;
+}
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+#page-home {
+  height: 100vh;
+  background: url('assets/Background.png') no-repeat;
+  background-position: 0vw bottom;
 }
 
-.sabe{
-  position: absolute;
-  width: 501px;
-  height: 57px;
-  left: 122px;
-  top: 247px;
-  font-family: 'Montserrat', sans-serif;
+.title {
+  font-size: 1.3em;
   font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 61px;
-  color: #F3CF31;
+  font-weight: 400;
+  color: var(--title-color);
+  margin-top: 100px;
 }
 
-.filmes{
-  position: absolute;
-  width: 767px;
-  height: 244px;
-  left: 111px;
-  top: 266px;  
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
+.subtitle {
+  font-size: 5.5em;
+  margin-top: -28px;
+  color: var(--title-color);
+}
+.paragrafo {
+  color: var(--paragrafo-color);
+}
+
+#form_home{
+  margin-top: 100px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
   font-weight: bold;
-  font-size: 200px;
-  line-height: 244px;
-  /* identical to box height */  
-  color: #F3CF31;
+  margin-bottom: 35px;
 }
 
-.texto1{
-  position: absolute;
-  width: 640px;
-  height: 87px;
-  left: 122px;
-  top: 510px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-}
-
-.texto2{
-  position: absolute;
-  width: 640px;
-  height: 90px;
-  left: 122px;
-  top: 621px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 50%;
-}
-.grid-item {
-  width: 50%;
-}
-
-.retangulo{
-  width: 383px;
-  height: 391px;    
-  background: #FFFFFF;
-}
-
-.nome{
-  position: absolute;
-  width: 121px;
-  height: 24px;
-  left: 968px;
-  top: 326px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  color: #000000;
-}
-
-.email{
-  position: absolute;
-  width: 121px;
-  height: 24px;
-  left: 968px;
-  top: 463px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  color: #000000;  
-}
-.btn1{
-  position: absolute;
-  width: 324px;
-  height: 41px;
-  left: 969px;
-  top: 364px;
-  background: #FFFFFF;
-  box-shadow: -2px 6px 11px rgba(0, 0, 0, 0.4);
-}
-
-.btn2{
-  position: absolute;
-  width: 324px;
-  height: 41px;
-  left: 969px;
-  top: 505px;
-  background: #FFFFFF;
-  box-shadow: -2px 6px 11px rgba(0, 0, 0, 0.4);
-}
-
-.logo{
-  position: absolute;
-  width: 72px;
-  height: 101px;
-  left: 684px;
-  top: 879px;
-  background: url(https://xteam.ml/logo.png);
-}
-
-.valor{
-  position: absolute;
-  width: 121px;
-  height: 24px;
-  left: 1072px;
-  top: 596px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  border: 2px solid #00000;
-  color: #00000;
-}
-
-.texto3{
-  position: absolute;
-  width: 383px;
-  height: 89px;
-  left: 945px;
-  top: 687px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-}
-
-.texto4{
-  position: absolute;
-  width: 259px;
-  height: 52px;
-  left: 590px;
-  top: 92px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 59px;
-  color: #F3CF31;
-}
-
-#question{
-  position: absolute;
-  width: 552px;
-  height: 363px;
-  left: 168px;
-  top: 366px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 59px;
-  color: #F3CF31;
-}
-
-.buttons{
-  width: 453px;
-  height: 83px;
-  left: 795px;
-  top: 370px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.form_label {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: -129px;
+  margin-bottom: -1px;
 }
