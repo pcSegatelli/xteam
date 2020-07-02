@@ -1,8 +1,7 @@
 .fundo{
     position: cover;
-	background: url(bg.svg) no-repeat; 
-	height: 100vh;
-	background-size: cover;
+	background: url(bg.svg); 
+	background-size: cover; 
 }
 
 .body {
