@@ -96,32 +96,36 @@ function mostrarQuantidadePerguntas() {
  
 function mostrarResultado() {
     var gameOverHTML = "<h1>Resultado: </h1>";
-	
+
 	if(quiz.score <= 95)	
 	{	
 		gameOverHTML += "<h2 id='score'> Aprendiz" + "</h2>";
-		gameOverHTML += "<h2 id='score'><img src='assets/iniciante.png'>"+ "</h2>";
+		gameOverHTML += "<h2 id='score'> <img src='assets/iniciante.jpg' width='500' height='600'>"+ "</h2>";
+		gameOverHTML += "<h2 id='score'> <a href='https://www.facebook.com/sharer/sharer.php?u=https://www.xteam.ml/'><img width='25' height='25' src='assets/facebook.jpg' alt=''></a>" + "</h2>";
 		gameOverHTML += "<h2 id='score'> Calma Padawan! Você ainda é um jovem aprendiz e tem muito caminho a percorrer." + "</h2>";
 		gameOverHTML += "<h2 id='score'> Separamos as seguintes recomendações pra você não fazer feio na roda de amigos: La Casa de Papel, Lúcifer, Os Vingadores, IT" + "</h2>";			
+		gameOverHTML += "<h2 id='score'> <img src='assets/iniciante_p.jpg' width='500' height='600'>"+ "</h2>";
+	
 	}
 	
 	if(quiz.score >= 100 && quiz.score <=120)	
 	{	
 		gameOverHTML += "<h2 id='score'> Guerreiro" + "</h2>";
-		gameOverHTML += "<h2 id='score'><img src='assets/iniciante.png'>"+ "</h2>";	
+		gameOverHTML += "<h2 id='score'> <img src='assets/guerreiro.jpg' width='500' height='600'>"+ "</h2>";	
+		gameOverHTML += "<h2 id='score'> <a href='https://www.facebook.com/sharer/sharer.php?u=https://www.xteam.ml/'><img width='25' height='25' src='assets/facebook.jpg' alt=''></a>" + "</h2>";
 		gameOverHTML += "<h2 id='score'> A força habita em você! Dá pra ver que você não é um amador e leva os filmes à sério, mas é preciso muito treinamento pra se tornar um mestre da sétima arte! Então comece agora!" + "</h2>";
 		gameOverHTML += "<h2 id='score'> Segura essa listinha que é quase lei pra quem gosta mesmo desse mundo!	Recomendamos:  Você (You), 2001 - Uma Odisséia no Espaço, A Onda, Psicose" + "</h2>";
+		gameOverHTML += "<h2 id='score'> <img src='assets/guerreiro_p.jpg' width='500' height='600'>"+ "</h2>";
 	}
 	
 	if(quiz.score >= 125 && quiz.score <=150)	
 	{	
 		gameOverHTML += "<h2 id='score'> Mestre" + "</h2>";
-		gameOverHTML += "<h2 id='score'><img src='assets/iniciante.png'>"+ "</h2>";
-			gameOverHTML += "<h2 id='score'><div class='fb-share-button' data-href='https://www.your-domain.com/your-page.html'  data-layout='button_count'> </div>" + "</h2>";
-		
-		
+		gameOverHTML += "<h2 id='score'> <img src='assets/mestre.jpg' width='500' height='600'>"+ "</h2>";
+		gameOverHTML += "<h2 id='score'> <a href='https://www.facebook.com/sharer/sharer.php?u=https://www.xteam.ml/'><img width='25' height='25' src='assets/facebook.jpg' alt=''></a>" + "</h2>";	
 		gameOverHTML += "<h2 id='score'> Yoda! Tudo da sétima arte Você sabe! Que tal assistir Bambi, só pra variar um pouco? Brincadeira! Temos uma lista de sugestão pra você, só não esquece que tem vida além da tela, belê?" + "</h2>";
 		gameOverHTML += "<h2 id='score'> Recomendamos: Cães de Aluguel, West World, 12 Homens e 1 sentença"  + "</h2>";
+		gameOverHTML += "<h2 id='score'> <img src='assets/mestre_p.jpg' width='500' height='600'>"+ "</h2>";
 	}
 	
     var element = document.getElementById("quiz");
