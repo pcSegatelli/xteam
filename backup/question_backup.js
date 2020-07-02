@@ -40,16 +40,9 @@ Resps.prototype.getValQuest = function(index, indexChoice) {
 	return this.respostas[index].options[indexChoice];
 }
 //----------------------------------------------------------- 
-function shareFacebook(){
+ 
 
-        var w = 630;
-        var h = 360;
 
-        var left = screen.width/2 - 630/2;
-        var top = screen.height/2 - 360/2;
-
-        window.open('http://www.facebook.com/sharer.php?u='+'https://www.xteam.ml/','Compartilhar no facebook', 'toolbar=no, location=no, directories=no, status=no, ' + 'menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width='+w+ ', height=' + h + ', top=' + top + ', left=' + left);
- }
 //----------------------------------------------------------------------
 
 function calcular() {
@@ -104,8 +97,7 @@ function mostrarResultado() {
 		gameOverHTML += "<h2 id='score'> <a href='https://www.facebook.com/sharer/sharer.php?u=https://www.xteam.ml/'><img width='25' height='25' src='assets/facebook.jpg' alt=''></a>" + "</h2>";
 		gameOverHTML += "<h2 id='score'> Calma Padawan! Você ainda é um jovem aprendiz e tem muito caminho a percorrer." + "</h2>";
 		gameOverHTML += "<h2 id='score'> Separamos as seguintes recomendações pra você não fazer feio na roda de amigos: La Casa de Papel, Lúcifer, Os Vingadores, IT" + "</h2>";			
-		gameOverHTML += "<h2 id='score'> <img src='assets/iniciante_p.jpg' width='500' height='600'>"+ "</h2>";
-	
+		gameOverHTML += "<h2 id='score'> <img src='assets/iniciante_p.jpg' width='500' height='600'>"+ "</h2>";	
 	}
 	
 	if(quiz.score >= 100 && quiz.score <=120)	
