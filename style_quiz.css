@@ -46,11 +46,11 @@
 }
 
 #btn0, #btn1, #btn2 {
-    background-color: #5A6772;
+    background-color: #767676;
     width: 250px;
     font-size: 20px;
-    color: #ffffff;;
-    border: 1px solid #5A6772;
+    color: #ffffff;
+    border: 1px solid #767676;
     border-radius: 50px;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
@@ -60,8 +60,8 @@
 
 #btn0:hover, #btn1:hover, #btn2:hover {
     cursor: pointer;
-    background-color: #32CD32
-;
+    background-color: #ffffff;
+	color: #767676;
 }
 
 #btn0:focus, #btn1:focus, #btn2:focus {
