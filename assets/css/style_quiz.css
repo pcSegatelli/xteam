@@ -1,6 +1,9 @@
 .fundo{
     position: cover;
-	background: url(assets/Background.png);
+	background: url(assets/images/bg.svg) no-repeat; 
+
+	height: 100vh;
+	background-size: cover;
 }
 
 .body {
@@ -45,7 +48,7 @@
 	color: #C1CDC1;
 }
 
-#btn0, #btn1, #btn2 {
+#btn0, #btn1, #btn2, #btn3 {
     background-color: #767676;
     width: 250px;
     font-size: 20px;
@@ -58,7 +61,7 @@
 	font-family: "Montserrat";
 }
 
-#btn0:hover, #btn1:hover, #btn2:hover {
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
     cursor: pointer;
     background-color: #ffffff;
 	color: #767676;
