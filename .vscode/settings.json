@@ -1,6 +1,0 @@
-{
-    "github.autoPublish": true,
-    "github.allowUnsafeSSL": true,
-    "github.customPullRequestTitle": true,
-    "githubIssues.createInsertFormat": "url"
-}
