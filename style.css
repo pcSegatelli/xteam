@@ -14,7 +14,7 @@ body {
 
 #page-home {
   height: 100vh;
-  background: url('assets/Background.png') no-repeat;
+  background: url('assets/images/Background.png') no-repeat;
   background-position: 0vw bottom;
 }
 
