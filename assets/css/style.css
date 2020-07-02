@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url('images/bg.svg') no-repeat; 
+  background: url('/assets/images/bg.svg') no-repeat; 
   height: 100vh;
   background-size: cover;
 }
