@@ -9,7 +9,7 @@ html {
 body {
   height: 100vh;
   background-position: 0vw bottom;
-  background: url(assets/Background.png) no-repeat;
+  background: url(assets/images/Background.png) no-repeat;
 }
 
 #page-home {
